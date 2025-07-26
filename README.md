@@ -4,21 +4,39 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
 
-Welcome to the **Fraud Detection Project** for Adey Innovations Inc.! This repository delivers robust machine learning models to detect fraudulent transactions in e-commerce (`Fraud_Data.csv`) and bank card datasets (`creditcard.csv`). From data preprocessing to model explainability, this project combines efficiency, accuracy, and actionable insights to combat fraud. 🌟
+Welcome to the **Fraud Detection Project** for Adey Innovations Inc.! This repository delivers cutting-edge machine learning models to detect fraudulent transactions in e-commerce (`Fraud_Data.csv`) and bank card datasets (`creditcard.csv`). From data preprocessing to model explainability, this project blends efficiency, accuracy, and actionable insights to combat fraud. 🌟
 
 ## Project Overview
-- **Objective**: Build and evaluate models to identify fraud, minimizing financial losses and enhancing user trust.
+- **Objective**: Identify fraud to minimize financial losses and enhance user trust.
 - **Datasets**:
   - `Fraud_Data`: ~151,112 e-commerce transactions (9.36% fraud).
   - `creditcard`: ~284,807 bank transactions (0.17% fraud).
 - **Key Tasks**:
-  - **Task 1**: Data cleaning, EDA, geolocation mapping, feature engineering, and transformation.
+  - **Task 1**: Data cleaning, EDA, geolocation mapping, feature engineering, transformation.
   - **Task 2**: Trained Logistic Regression and XGBoost, evaluated with AUC-PR and F1-Score.
   - **Explainability**: SHAP analysis to reveal key fraud predictors (e.g., `transaction_velocity`, `Amount`).
 - **Achievements**:
   - Optimized geolocation merge from 17 hours to ~10 minutes using `IntervalTree`. ⚡
   - XGBoost achieved AUC-PR [Your XGBoost AUC-PR, e.g., 0.9457] vs. Logistic Regression [Your LR AUC-PR, e.g., 0.8923].
   - SHAP insights guide fraud prevention strategies.
+
+## Visual Highlights
+Explore key outputs from the project:
+
+**Fraud Patterns (EDA)**  
+<img width="716" height="537" alt="image" src="https://github.com/user-attachments/assets/9407a677-8b8f-402f-89e0-96343f66cdd5" />
+
+*Correlation between `purchase_value` and `source` reveals fraud trends.*
+
+**Model Performance**  
+<img width="827" height="551" alt="image" src="https://github.com/user-attachments/assets/31b61b5b-2bf7-4517-b341-8343c422f58e" />
+ 
+*XGBoost confusion matrix shows strong fraud detection.*
+
+**Feature Importance (SHAP)**  
+<img width="462" height="550" alt="image" src="https://github.com/user-attachments/assets/9b43f347-afd5-4c8f-90fe-a70d221f4c60" />
+
+*`transaction_velocity` drives fraud predictions.*
 
 ## Repository Structure
 
@@ -27,7 +45,7 @@ fraud_detection_project/ ├── data/ # Processed datasets (CSVs) ├── s
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/[yourusername]/fraud_detection_project.git
    cd fraud_detection_project
 
 
@@ -61,7 +79,7 @@ python shap_analysis.py
 Outputs
 
 Data: data/Fraud_Data_transformed.csv, data/creditcard_scaled.csv, etc.
-Plots: plots/fraud_data_univariate.png, plots/Fraud_Data_best_cm.png, plots/shap_fraud_summary.png, etc.
+Plots: plots/fraud_data_bivariate.png, plots/Fraud_Data_best_cm.png, plots/shap_fraud_summary.png, etc.
 Report: report/report.md or report/report.pdf with detailed methodology and results.
 
 Key Results
@@ -73,7 +91,7 @@ Insights: SHAP revealed transaction_velocity and Amount as top fraud indicators,
 Report
 Dive into the full story in report/report.md or report/report.pdf, covering data preprocessing, model evaluation, and SHAP explainability with visualizations.
 Author
-Simbo FekaduSubmitted for Adey Innovations Inc., 29 July 2025
+Simbo Fekadu
 
-🔍 Explore the code, run the scripts, and join the fight against fraud!
+🔍 Explore the code, view the visuals, and join the fight against fraud!
 
