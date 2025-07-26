@@ -1,0 +1,6 @@
+# Ignore data folder and output CSV files
+Data/
+*.csv
+!Data/.gitkeep
+fraud_detection_env/
+fraud_detection_project/.env
