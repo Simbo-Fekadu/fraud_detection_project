@@ -17,7 +17,7 @@ Welcome to the **Fraud Detection Project** for Adey Innovations Inc.! This repos
   - **Explainability**: SHAP analysis to reveal key fraud predictors (e.g., `transaction_velocity`, `Amount`).
 - **Achievements**:
   - Optimized geolocation merge from 17 hours to ~10 minutes using `IntervalTree`. ⚡
-  - XGBoost achieved AUC-PR [Your XGBoost AUC-PR, e.g., 0.9457] vs. Logistic Regression [Your LR AUC-PR, e.g., 0.8923].
+  - XGBoost achieved AUC-PR  vs. Logistic Regression.
   - SHAP insights guide fraud prevention strategies.
 
 ## Visual Highlights
@@ -45,7 +45,7 @@ fraud_detection_project/ ├── data/ # Processed datasets (CSVs) ├── s
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[yourusername]/fraud_detection_project.git
+   git clone https://github.com/Simbo-Fekadu/fraud_detection_project.git
    cd fraud_detection_project
 
 
@@ -85,7 +85,7 @@ Report: report/report.md or report/report.pdf with detailed methodology and resu
 Key Results
 
 Efficiency: Reduced geolocation processing from 17 hours to ~10 minutes. 🕒
-Performance: XGBoost outperformed with AUC-PR [Your XGBoost AUC-PR] for Fraud_Data and [Your XGBoost AUC-PR] for creditcard.
+Performance: XGBoost outperformed with AUC-PR for Fraud_Data and for creditcard.
 Insights: SHAP revealed transaction_velocity and Amount as top fraud indicators, enabling targeted monitoring. 📊
 
 Report
