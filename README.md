@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
 
-Welcome to the **Fraud Detection Project** for Adey Innovations Inc.! This repository delivers cutting-edge machine learning models to detect fraudulent transactions in e-commerce (`Fraud_Data.csv`) and bank card datasets (`creditcard.csv`). From data preprocessing to model explainability, this project blends efficiency, accuracy, and actionable insights to combat fraud. 🌟
+Welcome to the **Fraud Detection Project** for Adey Innovations Inc.! This repository delivers cutting-edge machine learning models to detect fraudulent transactions in e-commerce (`Fraud_Data.csv`) and bank card datasets (`creditcard.csv`). From data preprocessing to model explainability, this project blends efficiency, accuracy, and actionable insights to combat fraud.
 
 ## Project Overview
 - **Objective**: Identify fraud to minimize financial losses and enhance user trust.
